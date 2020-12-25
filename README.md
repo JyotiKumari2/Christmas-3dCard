@@ -2,8 +2,8 @@
 <hr>
 <h2>🎄🎅Merry Christmas🎅🎄</h2>
 </br>
-link:https://jyotikumari2.github.io/Christmas-3dCard/ <br/>
-![](image.jpg)
+<img src="image.jpg" alt=""height="400" width="600">
+link:https://jyotikumari2.github.io/Christmas-3dCard/  
 <br/>
 <hr>
 Tutorial Followed:▶️Coding Snow link:https://www.youtube.com/watch?v=-Q9LYu32lQQ
