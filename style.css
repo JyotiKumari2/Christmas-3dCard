@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+.{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(card2-bg.jpg) no-repeat;
+  background-position:center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height:750px;
+  perspective: 1200px;
+}
+.card{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 600px;
+  transform-style: preserve-3d;
+}
+.card .card-bg{
+  position: absolute;
+}
+.card .card-bg img{
+  z-index: 1;
+  width: 100%;
+  border-radius: 10px;
+}
+.card .title{
+      z-index: 2;
+      margin:40px;
+      color: #a20a0a;
+      position: absolute;
+      top: 50px;
+      text-align: center;
+      line-height: 5px;
+      transition: all 0.3s ease-out;
+}
+.card .title h2{
+  font-family: "Eczar",serif;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.card .title h1{
+  font-family: "Berkshire" , cursive;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+.card .title h3{
+  font-family: "Eczar" , serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 1px;
+}
+.card .images{
+  z-index: 2;
+  margin-right: 150px;
+  margin-top: 100px;
+  margin-left: 50px;
+
+}
+.card .images img{
+  border-radius: 10px;
+}
+.card .images .santa{
+  z-index: 3;
+  margin: 200px;
+  position: absolute;
+  width: 150px;
+  transition: all 0.3s ease-out;
+}
+.card .images .tree{
+  z-index: 2;
+  margin: 200px;
+  width: 150px;
+  transition: all 0.3s ease-out;
+}
